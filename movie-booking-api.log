@@ -1,0 +1,704 @@
+2026-01-28T00:01:25.228+05:30  INFO 59885 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Starting MovieBookingApplication using Java 21.0.9 with PID 59885 (/Users/sumanthshankar/Desktop/movie-booking-api/target/classes started by sumanthshankar in /Users/sumanthshankar/Desktop/movie-booking-api)
+2026-01-28T00:01:25.230+05:30  INFO 59885 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T00:01:25.249+05:30  INFO 59885 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T00:01:25.249+05:30  INFO 59885 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T00:01:25.308+05:30  WARN 59885 --- [backend-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- org.redisson.spring.starter.RedissonAutoConfiguration
+
+2026-01-28T00:01:25.418+05:30 ERROR 59885 --- [backend-api] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- org.redisson.spring.starter.RedissonAutoConfiguration
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:235) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:221) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:150) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:481) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:931) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:860) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:831) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:200) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:446) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:794) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at movie.MovieBookingApplication.main(MovieBookingApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+
+2026-01-28T00:01:31.020+05:30  INFO 60251 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Starting MovieBookingApplication using Java 21.0.9 with PID 60251 (/Users/sumanthshankar/Desktop/movie-booking-api/target/classes started by sumanthshankar in /Users/sumanthshankar/Desktop/movie-booking-api)
+2026-01-28T00:01:31.021+05:30  INFO 60251 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T00:01:31.039+05:30  INFO 60251 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T00:01:31.039+05:30  INFO 60251 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T00:01:31.101+05:30  WARN 60251 --- [backend-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- org.redisson.spring.starter.RedissonAutoConfiguration
+
+2026-01-28T00:01:31.203+05:30 ERROR 60251 --- [backend-api] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- org.redisson.spring.starter.RedissonAutoConfiguration
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:235) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:221) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:150) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:481) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:931) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:860) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:831) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:200) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:446) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:794) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at movie.MovieBookingApplication.main(MovieBookingApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+
+2026-01-28T00:01:41.419+05:30  INFO 60634 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Starting MovieBookingApplication using Java 21.0.9 with PID 60634 (/Users/sumanthshankar/Desktop/movie-booking-api/target/classes started by sumanthshankar in /Users/sumanthshankar/Desktop/movie-booking-api)
+2026-01-28T00:01:41.421+05:30  INFO 60634 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T00:01:41.439+05:30  INFO 60634 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T00:01:41.439+05:30  INFO 60634 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T00:01:41.774+05:30  INFO 60634 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-28T00:01:41.775+05:30  INFO 60634 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T00:01:41.857+05:30  INFO 60634 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 4 JPA repository interfaces.
+2026-01-28T00:01:42.186+05:30  INFO 60634 --- [backend-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-28T00:01:42.192+05:30  INFO 60634 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T00:01:42.192+05:30  INFO 60634 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T00:01:42.207+05:30  INFO 60634 --- [backend-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 768 ms
+2026-01-28T00:01:42.290+05:30  INFO 60634 --- [backend-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-28T00:01:42.314+05:30  INFO 60634 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-28T00:01:42.458+05:30  INFO 60634 --- [backend-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T00:01:42.472+05:30  INFO 60634 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T00:01:42.533+05:30  INFO 60634 --- [backend-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookingdb user=SA
+2026-01-28T00:01:42.534+05:30  INFO 60634 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T00:01:42.556+05:30  INFO 60634 --- [backend-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:bookingdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: BOOKINGDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T00:01:42.857+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_users(rn_ integer not null, id bigint, email varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:01:42.861+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_seat(rn_ integer not null, id bigint, show_id bigint, version bigint, seatNumber varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (rn_)) transactional
+2026-01-28T00:01:42.861+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_booking(rn_ integer not null, totalAmount numeric(38,2), bookedAt timestamp(6), id bigint, show_id bigint, user_id bigint, bookingReference varchar(255), bookingStatus enum ('CANCELLED','CONFIRMED','PENDING'), primary key (rn_)) transactional
+2026-01-28T00:01:42.862+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_theatre(rn_ integer not null, city_id bigint, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:01:42.862+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_city(rn_ integer not null, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:01:42.862+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_movie(rn_ integer not null, id bigint, language varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:01:42.863+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_show(price numeric(38,2), rn_ integer not null, showDate date, showTime time(0), id bigint, movie_id bigint, theatre_id bigint, primary key (rn_)) transactional
+2026-01-28T00:01:42.911+05:30  INFO 60634 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T00:01:42.917+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T00:01:42.917+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T00:01:42.917+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T00:01:42.917+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T00:01:42.917+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T00:01:42.917+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T00:01:42.918+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T00:01:42.920+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence booking_seq start with 1 increment by 50
+2026-01-28T00:01:42.921+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence city_seq start with 1 increment by 50
+2026-01-28T00:01:42.921+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence movie_seq start with 1 increment by 50
+2026-01-28T00:01:42.921+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence seat_seq start with 1 increment by 50
+2026-01-28T00:01:42.921+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence show_seq start with 1 increment by 50
+2026-01-28T00:01:42.922+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence theatre_seq start with 1 increment by 50
+2026-01-28T00:01:42.922+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence users_seq start with 1 increment by 50
+2026-01-28T00:01:42.923+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table booking (total_amount numeric(38,2), booked_at timestamp(6), id bigint not null, show_id bigint, user_id bigint not null, booking_reference varchar(255), booking_status enum ('CANCELLED','CONFIRMED','PENDING'), primary key (id))
+2026-01-28T00:01:42.924+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table city (id bigint not null, name varchar(255), primary key (id))
+2026-01-28T00:01:42.924+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table movie (id bigint not null, language varchar(255), name varchar(255), primary key (id))
+2026-01-28T00:01:42.925+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table seat (id bigint not null, show_id bigint, version bigint, seat_number varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (id))
+2026-01-28T00:01:42.925+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table show (price numeric(38,2), show_date date, show_time time(0), id bigint not null, movie_id bigint, theatre_id bigint, primary key (id))
+2026-01-28T00:01:42.926+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table theatre (city_id bigint, id bigint not null, name varchar(255), primary key (id))
+2026-01-28T00:01:42.926+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table users (id bigint not null, email varchar(255), name varchar(255), primary key (id))
+2026-01-28T00:01:42.926+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK2lr4fhgeao9p3uyhngtwn67h7 foreign key (show_id) references show
+2026-01-28T00:01:42.931+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK7udbel7q86k041591kj6lfmvw foreign key (user_id) references users
+2026-01-28T00:01:42.932+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists seat add constraint FKmumdu48thgea5upmg8bws7xis foreign key (show_id) references show
+2026-01-28T00:01:42.933+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKrko1v6l96s1pp0gvuit6c7l7q foreign key (movie_id) references movie
+2026-01-28T00:01:42.934+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKm32tfrlkaec150nuefoq2funj foreign key (theatre_id) references theatre
+2026-01-28T00:01:42.934+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists theatre add constraint FKqfrea71qlwgmpbyrmldr5iln3 foreign key (city_id) references city
+2026-01-28T00:01:42.936+05:30  INFO 60634 --- [backend-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T00:01:42.975+05:30  INFO 60634 --- [backend-api] [restartedMain] org.redisson.Version                     : Redisson 4.1.0
+2026-01-28T00:01:43.023+05:30  WARN 60634 --- [backend-api] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-01-28T00:01:50.245+05:30  WARN 60634 --- [backend-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'distributedLockService' defined in file [/Users/sumanthshankar/Desktop/movie-booking-api/target/classes/movie/cache/DistributedLockService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'redissonClient' defined in class path resource [movie/cache/RedissonConfig.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+2026-01-28T00:01:50.246+05:30  INFO 60634 --- [backend-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T00:01:50.246+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T00:01:50.247+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T00:01:50.248+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T00:01:50.248+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T00:01:50.249+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T00:01:50.249+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T00:01:50.250+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T00:01:50.250+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T00:01:50.250+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T00:01:50.250+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T00:01:50.251+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T00:01:50.251+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T00:01:50.251+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T00:01:50.252+05:30 DEBUG 60634 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T00:01:50.256+05:30  WARN 60634 --- [backend-api] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-01-28T00:01:50.256+05:30  INFO 60634 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T00:01:50.257+05:30  INFO 60634 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-28T00:01:50.259+05:30  INFO 60634 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-01-28T00:01:50.266+05:30  INFO 60634 --- [backend-api] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-28T00:01:50.272+05:30 ERROR 60634 --- [backend-api] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'distributedLockService' defined in file [/Users/sumanthshankar/Desktop/movie-booking-api/target/classes/movie/cache/DistributedLockService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'redissonClient' defined in class path resource [movie/cache/RedissonConfig.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at movie.MovieBookingApplication.main(MovieBookingApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [movie/cache/RedissonConfig.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 38 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:252) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:190) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.connection.ConnectionManager.create(ConnectionManager.java:98) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.Redisson.<init>(Redisson.java:76) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.Redisson.create(Redisson.java:119) ~[redisson-4.1.0.jar:4.1.0]
+	at movie.cache.RedissonConfig.redissonClient(RedissonConfig.java:19) ~[classes/:na]
+	at movie.cache.RedissonConfig$$SpringCGLIB$$0.CGLIB$redissonClient$0(<generated>) ~[classes/:na]
+	at movie.cache.RedissonConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398) ~[spring-context-7.0.2.jar:7.0.2]
+	at movie.cache.RedissonConfig$$SpringCGLIB$$0.redissonClient(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 41 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source) ~[na:na]
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:247) ~[redisson-4.1.0.jar:4.1.0]
+	... 54 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$2(ConnectionsHolder.java:169) ~[redisson-4.1.0.jar:4.1.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source) ~[na:na]
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$5(ConnectionsHolder.java:183) ~[redisson-4.1.0.jar:4.1.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source) ~[na:na]
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:325) ~[redisson-4.1.0.jar:4.1.0]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniRelay.tryFire(Unknown Source) ~[na:na]
+	... 11 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2026-01-28T00:02:01.234+05:30  INFO 60745 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Starting MovieBookingApplication using Java 21.0.6 with PID 60745 (/Users/sumanthshankar/Desktop/movie-booking-api/target/classes started by sumanthshankar in /Users/sumanthshankar/Desktop/movie-booking-api)
+2026-01-28T00:02:01.235+05:30  INFO 60745 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T00:02:01.249+05:30  INFO 60745 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T00:02:01.250+05:30  INFO 60745 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T00:02:01.556+05:30  INFO 60745 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-28T00:02:01.557+05:30  INFO 60745 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T00:02:01.638+05:30  INFO 60745 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2026-01-28T00:02:01.984+05:30  INFO 60745 --- [backend-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-28T00:02:01.989+05:30  INFO 60745 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T00:02:01.989+05:30  INFO 60745 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T00:02:02.004+05:30  INFO 60745 --- [backend-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 754 ms
+2026-01-28T00:02:02.084+05:30  INFO 60745 --- [backend-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-28T00:02:02.104+05:30  INFO 60745 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-28T00:02:02.248+05:30  INFO 60745 --- [backend-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T00:02:02.260+05:30  INFO 60745 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T00:02:02.316+05:30  INFO 60745 --- [backend-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookingdb user=SA
+2026-01-28T00:02:02.316+05:30  INFO 60745 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T00:02:02.340+05:30  INFO 60745 --- [backend-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:bookingdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: BOOKINGDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T00:02:02.655+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_users(rn_ integer not null, id bigint, email varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:02:02.659+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_seat(rn_ integer not null, id bigint, show_id bigint, version bigint, seatNumber varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (rn_)) transactional
+2026-01-28T00:02:02.660+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_booking(rn_ integer not null, totalAmount numeric(38,2), bookedAt timestamp(6), id bigint, show_id bigint, user_id bigint, bookingReference varchar(255), bookingStatus enum ('CANCELLED','CONFIRMED','PENDING'), primary key (rn_)) transactional
+2026-01-28T00:02:02.661+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_theatre(rn_ integer not null, city_id bigint, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:02:02.661+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_city(rn_ integer not null, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:02:02.661+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_movie(rn_ integer not null, id bigint, language varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:02:02.662+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_show(price numeric(38,2), rn_ integer not null, showDate date, showTime time(0), id bigint, movie_id bigint, theatre_id bigint, primary key (rn_)) transactional
+2026-01-28T00:02:02.709+05:30  INFO 60745 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T00:02:02.715+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T00:02:02.715+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T00:02:02.716+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T00:02:02.717+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T00:02:02.718+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence booking_seq start with 1 increment by 50
+2026-01-28T00:02:02.719+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence city_seq start with 1 increment by 50
+2026-01-28T00:02:02.719+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence movie_seq start with 1 increment by 50
+2026-01-28T00:02:02.719+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence seat_seq start with 1 increment by 50
+2026-01-28T00:02:02.719+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence show_seq start with 1 increment by 50
+2026-01-28T00:02:02.719+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence theatre_seq start with 1 increment by 50
+2026-01-28T00:02:02.720+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence users_seq start with 1 increment by 50
+2026-01-28T00:02:02.721+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table booking (total_amount numeric(38,2), booked_at timestamp(6), id bigint not null, show_id bigint, user_id bigint not null, booking_reference varchar(255), booking_status enum ('CANCELLED','CONFIRMED','PENDING'), primary key (id))
+2026-01-28T00:02:02.722+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table city (id bigint not null, name varchar(255), primary key (id))
+2026-01-28T00:02:02.722+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table movie (id bigint not null, language varchar(255), name varchar(255), primary key (id))
+2026-01-28T00:02:02.722+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table seat (id bigint not null, show_id bigint, version bigint, seat_number varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (id))
+2026-01-28T00:02:02.723+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table show (price numeric(38,2), show_date date, show_time time(0), id bigint not null, movie_id bigint, theatre_id bigint, primary key (id))
+2026-01-28T00:02:02.723+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table theatre (city_id bigint, id bigint not null, name varchar(255), primary key (id))
+2026-01-28T00:02:02.724+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table users (id bigint not null, email varchar(255), name varchar(255), primary key (id))
+2026-01-28T00:02:02.724+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK2lr4fhgeao9p3uyhngtwn67h7 foreign key (show_id) references show
+2026-01-28T00:02:02.729+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK7udbel7q86k041591kj6lfmvw foreign key (user_id) references users
+2026-01-28T00:02:02.731+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists seat add constraint FKmumdu48thgea5upmg8bws7xis foreign key (show_id) references show
+2026-01-28T00:02:02.732+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKrko1v6l96s1pp0gvuit6c7l7q foreign key (movie_id) references movie
+2026-01-28T00:02:02.732+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKm32tfrlkaec150nuefoq2funj foreign key (theatre_id) references theatre
+2026-01-28T00:02:02.733+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists theatre add constraint FKqfrea71qlwgmpbyrmldr5iln3 foreign key (city_id) references city
+2026-01-28T00:02:02.734+05:30  INFO 60745 --- [backend-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T00:02:02.773+05:30  INFO 60745 --- [backend-api] [restartedMain] org.redisson.Version                     : Redisson 4.1.0
+2026-01-28T00:02:02.821+05:30  WARN 60745 --- [backend-api] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-01-28T00:02:09.764+05:30  WARN 60745 --- [backend-api] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'distributedLockService' defined in file [/Users/sumanthshankar/Desktop/movie-booking-api/target/classes/movie/cache/DistributedLockService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'redissonClient' defined in class path resource [movie/cache/RedissonConfig.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+2026-01-28T00:02:09.765+05:30  INFO 60745 --- [backend-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T00:02:09.767+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T00:02:09.769+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T00:02:09.770+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T00:02:09.771+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T00:02:09.772+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T00:02:09.772+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T00:02:09.773+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T00:02:09.773+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T00:02:09.773+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T00:02:09.773+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T00:02:09.774+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T00:02:09.774+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T00:02:09.774+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T00:02:09.774+05:30 DEBUG 60745 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T00:02:09.782+05:30  WARN 60745 --- [backend-api] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-01-28T00:02:09.782+05:30  INFO 60745 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T00:02:09.783+05:30  INFO 60745 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-28T00:02:09.786+05:30  INFO 60745 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-01-28T00:02:09.796+05:30  INFO 60745 --- [backend-api] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-28T00:02:09.803+05:30 ERROR 60745 --- [backend-api] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'distributedLockService' defined in file [/Users/sumanthshankar/Desktop/movie-booking-api/target/classes/movie/cache/DistributedLockService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'redissonClient' defined in class path resource [movie/cache/RedissonConfig.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at movie.MovieBookingApplication.main(MovieBookingApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [movie/cache/RedissonConfig.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception with message: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152) ~[spring-beans-7.0.2.jar:7.0.2]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 38 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:252) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:190) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.connection.ConnectionManager.create(ConnectionManager.java:98) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.Redisson.<init>(Redisson.java:76) ~[redisson-4.1.0.jar:4.1.0]
+	at org.redisson.Redisson.create(Redisson.java:119) ~[redisson-4.1.0.jar:4.1.0]
+	at movie.cache.RedissonConfig.redissonClient(RedissonConfig.java:19) ~[classes/:na]
+	at movie.cache.RedissonConfig$$SpringCGLIB$$0.CGLIB$redissonClient$0(<generated>) ~[classes/:na]
+	at movie.cache.RedissonConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398) ~[spring-context-7.0.2.jar:7.0.2]
+	at movie.cache.RedissonConfig$$SpringCGLIB$$0.redissonClient(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155) ~[spring-beans-7.0.2.jar:7.0.2]
+	... 41 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096) ~[na:na]
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:247) ~[redisson-4.1.0.jar:4.1.0]
+	... 54 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 127.0.0.1/127.0.0.1:6379
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$2(ConnectionsHolder.java:169) ~[redisson-4.1.0.jar:4.1.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[na:na]
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$5(ConnectionsHolder.java:183) ~[redisson-4.1.0.jar:4.1.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[na:na]
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:325) ~[redisson-4.1.0.jar:4.1.0]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:377) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1097) ~[na:na]
+	... 11 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 127.0.0.1/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-28T00:07:28.456+05:30  INFO 63339 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Starting MovieBookingApplication using Java 21.0.6 with PID 63339 (/Users/sumanthshankar/Desktop/movie-booking-api/target/classes started by sumanthshankar in /Users/sumanthshankar/Desktop/movie-booking-api)
+2026-01-28T00:07:28.457+05:30  INFO 63339 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T00:07:28.474+05:30  INFO 63339 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T00:07:28.475+05:30  INFO 63339 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T00:07:28.770+05:30  INFO 63339 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-28T00:07:28.770+05:30  INFO 63339 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T00:07:28.838+05:30  INFO 63339 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2026-01-28T00:07:29.155+05:30  INFO 63339 --- [backend-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-28T00:07:29.160+05:30  INFO 63339 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T00:07:29.161+05:30  INFO 63339 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T00:07:29.175+05:30  INFO 63339 --- [backend-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 700 ms
+2026-01-28T00:07:29.253+05:30  INFO 63339 --- [backend-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-28T00:07:29.268+05:30  INFO 63339 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-28T00:07:29.386+05:30  INFO 63339 --- [backend-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T00:07:29.396+05:30  INFO 63339 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T00:07:29.443+05:30  INFO 63339 --- [backend-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookingdb user=SA
+2026-01-28T00:07:29.443+05:30  INFO 63339 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T00:07:29.462+05:30  INFO 63339 --- [backend-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:bookingdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: BOOKINGDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T00:07:29.748+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_users(rn_ integer not null, id bigint, email varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:07:29.751+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_seat(rn_ integer not null, id bigint, show_id bigint, version bigint, seatNumber varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (rn_)) transactional
+2026-01-28T00:07:29.751+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_booking(rn_ integer not null, totalAmount numeric(38,2), bookedAt timestamp(6), id bigint, show_id bigint, user_id bigint, bookingReference varchar(255), bookingStatus enum ('CANCELLED','CONFIRMED','PENDING'), primary key (rn_)) transactional
+2026-01-28T00:07:29.752+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_theatre(rn_ integer not null, city_id bigint, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:07:29.752+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_city(rn_ integer not null, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:07:29.753+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_movie(rn_ integer not null, id bigint, language varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T00:07:29.753+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_show(price numeric(38,2), rn_ integer not null, showDate date, showTime time(0), id bigint, movie_id bigint, theatre_id bigint, primary key (rn_)) transactional
+2026-01-28T00:07:29.792+05:30  INFO 63339 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T00:07:29.798+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T00:07:29.799+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T00:07:29.800+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence booking_seq start with 1 increment by 50
+2026-01-28T00:07:29.801+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence city_seq start with 1 increment by 50
+2026-01-28T00:07:29.801+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence movie_seq start with 1 increment by 50
+2026-01-28T00:07:29.801+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence seat_seq start with 1 increment by 50
+2026-01-28T00:07:29.802+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence show_seq start with 1 increment by 50
+2026-01-28T00:07:29.802+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence theatre_seq start with 1 increment by 50
+2026-01-28T00:07:29.802+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence users_seq start with 1 increment by 50
+2026-01-28T00:07:29.803+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table booking (total_amount numeric(38,2), booked_at timestamp(6), id bigint not null, show_id bigint, user_id bigint not null, booking_reference varchar(255), booking_status enum ('CANCELLED','CONFIRMED','PENDING'), primary key (id))
+2026-01-28T00:07:29.803+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table city (id bigint not null, name varchar(255), primary key (id))
+2026-01-28T00:07:29.804+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table movie (id bigint not null, language varchar(255), name varchar(255), primary key (id))
+2026-01-28T00:07:29.804+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table seat (id bigint not null, show_id bigint, version bigint, seat_number varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (id))
+2026-01-28T00:07:29.804+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table show (price numeric(38,2), show_date date, show_time time(0), id bigint not null, movie_id bigint, theatre_id bigint, primary key (id))
+2026-01-28T00:07:29.805+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table theatre (city_id bigint, id bigint not null, name varchar(255), primary key (id))
+2026-01-28T00:07:29.805+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table users (id bigint not null, email varchar(255), name varchar(255), primary key (id))
+2026-01-28T00:07:29.805+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK2lr4fhgeao9p3uyhngtwn67h7 foreign key (show_id) references show
+2026-01-28T00:07:29.809+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK7udbel7q86k041591kj6lfmvw foreign key (user_id) references users
+2026-01-28T00:07:29.810+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists seat add constraint FKmumdu48thgea5upmg8bws7xis foreign key (show_id) references show
+2026-01-28T00:07:29.811+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKrko1v6l96s1pp0gvuit6c7l7q foreign key (movie_id) references movie
+2026-01-28T00:07:29.811+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKm32tfrlkaec150nuefoq2funj foreign key (theatre_id) references theatre
+2026-01-28T00:07:29.812+05:30 DEBUG 63339 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists theatre add constraint FKqfrea71qlwgmpbyrmldr5iln3 foreign key (city_id) references city
+2026-01-28T00:07:29.813+05:30  INFO 63339 --- [backend-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T00:07:29.850+05:30  INFO 63339 --- [backend-api] [restartedMain] org.redisson.Version                     : Redisson 4.1.0
+2026-01-28T00:07:29.889+05:30  WARN 63339 --- [backend-api] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-01-28T00:07:29.974+05:30  INFO 63339 --- [backend-api] [redisson-netty-1-4] o.redisson.connection.ConnectionsHolder  : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2026-01-28T00:07:29.995+05:30  INFO 63339 --- [backend-api] [redisson-netty-1-19] o.redisson.connection.ConnectionsHolder  : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2026-01-28T00:07:30.076+05:30  INFO 63339 --- [backend-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-28T00:07:30.521+05:30  WARN 63339 --- [backend-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28T00:07:30.805+05:30  INFO 63339 --- [backend-api] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookingdb'
+2026-01-28T00:07:30.845+05:30  INFO 63339 --- [backend-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-28T00:07:30.849+05:30  INFO 63339 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Started MovieBookingApplication in 2.538 seconds (process running for 2.716)
+2026-01-28T00:10:22.571+05:30  INFO 63339 --- [backend-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T00:10:22.573+05:30  INFO 63339 --- [backend-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T00:10:22.580+05:30  INFO 63339 --- [backend-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T00:10:22.580+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T00:10:22.581+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T00:10:22.581+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T00:10:22.581+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T00:10:22.582+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T00:10:22.583+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T00:10:22.583+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T00:10:22.583+05:30 DEBUG 63339 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T00:10:22.586+05:30  WARN 63339 --- [backend-api] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-01-28T00:10:22.586+05:30  INFO 63339 --- [backend-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T00:10:22.587+05:30  INFO 63339 --- [backend-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-28T01:29:29.966+05:30  INFO 71592 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Starting MovieBookingApplication using Java 21.0.6 with PID 71592 (/Users/sumanthshankar/Desktop/movie-booking-api/target/classes started by sumanthshankar in /Users/sumanthshankar/Desktop/movie-booking-api)
+2026-01-28T01:29:29.967+05:30  INFO 71592 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T01:29:29.985+05:30  INFO 71592 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28T01:29:29.986+05:30  INFO 71592 --- [backend-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28T01:29:30.319+05:30  INFO 71592 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-01-28T01:29:30.319+05:30  INFO 71592 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28T01:29:30.401+05:30  INFO 71592 --- [backend-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 4 JPA repository interfaces.
+2026-01-28T01:29:30.728+05:30  INFO 71592 --- [backend-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-28T01:29:30.733+05:30  INFO 71592 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T01:29:30.734+05:30  INFO 71592 --- [backend-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T01:29:30.747+05:30  INFO 71592 --- [backend-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 761 ms
+2026-01-28T01:29:30.828+05:30  INFO 71592 --- [backend-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-28T01:29:30.854+05:30  INFO 71592 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-28T01:29:31.009+05:30  INFO 71592 --- [backend-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28T01:29:31.023+05:30  INFO 71592 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-28T01:29:31.084+05:30  INFO 71592 --- [backend-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookingdb user=SA
+2026-01-28T01:29:31.085+05:30  INFO 71592 --- [backend-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-28T01:29:31.112+05:30  INFO 71592 --- [backend-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:bookingdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: BOOKINGDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28T01:29:31.412+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_users(rn_ integer not null, id bigint, email varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T01:29:31.416+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_seat(rn_ integer not null, id bigint, show_id bigint, version bigint, seatNumber varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (rn_)) transactional
+2026-01-28T01:29:31.416+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_booking(rn_ integer not null, totalAmount numeric(38,2), bookedAt timestamp(6), id bigint, show_id bigint, user_id bigint, bookingReference varchar(255), bookingStatus enum ('CANCELLED','CONFIRMED','PENDING'), primary key (rn_)) transactional
+2026-01-28T01:29:31.417+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_theatre(rn_ integer not null, city_id bigint, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T01:29:31.417+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_city(rn_ integer not null, id bigint, name varchar(255), primary key (rn_)) transactional
+2026-01-28T01:29:31.418+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_movie(rn_ integer not null, id bigint, language varchar(255), name varchar(255), primary key (rn_)) transactional
+2026-01-28T01:29:31.418+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create global temporary table HTE_show(price numeric(38,2), rn_ integer not null, showDate date, showTime time(0), id bigint, movie_id bigint, theatre_id bigint, primary key (rn_)) transactional
+2026-01-28T01:29:31.462+05:30  INFO 71592 --- [backend-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28T01:29:31.467+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T01:29:31.467+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T01:29:31.468+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T01:29:31.469+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T01:29:31.470+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence booking_seq start with 1 increment by 50
+2026-01-28T01:29:31.471+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence city_seq start with 1 increment by 50
+2026-01-28T01:29:31.471+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence movie_seq start with 1 increment by 50
+2026-01-28T01:29:31.471+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence seat_seq start with 1 increment by 50
+2026-01-28T01:29:31.471+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence show_seq start with 1 increment by 50
+2026-01-28T01:29:31.471+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence theatre_seq start with 1 increment by 50
+2026-01-28T01:29:31.471+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create sequence users_seq start with 1 increment by 50
+2026-01-28T01:29:31.472+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table booking (total_amount numeric(38,2), booked_at timestamp(6), id bigint not null, show_id bigint, user_id bigint not null, booking_reference varchar(255), booking_status enum ('CANCELLED','CONFIRMED','PENDING'), primary key (id))
+2026-01-28T01:29:31.473+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table city (id bigint not null, name varchar(255), primary key (id))
+2026-01-28T01:29:31.473+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table movie (id bigint not null, language varchar(255), name varchar(255), primary key (id))
+2026-01-28T01:29:31.474+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table seat (id bigint not null, show_id bigint, version bigint, seat_number varchar(255), status enum ('AVAILABLE','BOOKED','LOCKED'), primary key (id))
+2026-01-28T01:29:31.474+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table show (price numeric(38,2), show_date date, show_time time(0), id bigint not null, movie_id bigint, theatre_id bigint, primary key (id))
+2026-01-28T01:29:31.474+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table theatre (city_id bigint, id bigint not null, name varchar(255), primary key (id))
+2026-01-28T01:29:31.475+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : create table users (id bigint not null, email varchar(255), name varchar(255), primary key (id))
+2026-01-28T01:29:31.475+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK2lr4fhgeao9p3uyhngtwn67h7 foreign key (show_id) references show
+2026-01-28T01:29:31.479+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists booking add constraint FK7udbel7q86k041591kj6lfmvw foreign key (user_id) references users
+2026-01-28T01:29:31.481+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists seat add constraint FKmumdu48thgea5upmg8bws7xis foreign key (show_id) references show
+2026-01-28T01:29:31.481+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKrko1v6l96s1pp0gvuit6c7l7q foreign key (movie_id) references movie
+2026-01-28T01:29:31.482+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists show add constraint FKm32tfrlkaec150nuefoq2funj foreign key (theatre_id) references theatre
+2026-01-28T01:29:31.483+05:30 DEBUG 71592 --- [backend-api] [restartedMain] org.hibernate.SQL                        : alter table if exists theatre add constraint FKqfrea71qlwgmpbyrmldr5iln3 foreign key (city_id) references city
+2026-01-28T01:29:31.484+05:30  INFO 71592 --- [backend-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T01:29:31.520+05:30  INFO 71592 --- [backend-api] [restartedMain] org.redisson.Version                     : Redisson 4.1.0
+2026-01-28T01:29:31.564+05:30  WARN 71592 --- [backend-api] [restartedMain] i.n.r.d.DnsServerAddressStreamProviders  : Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2026-01-28T01:29:31.650+05:30  INFO 71592 --- [backend-api] [redisson-netty-1-4] o.redisson.connection.ConnectionsHolder  : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2026-01-28T01:29:31.673+05:30  INFO 71592 --- [backend-api] [redisson-netty-1-19] o.redisson.connection.ConnectionsHolder  : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2026-01-28T01:29:31.752+05:30  INFO 71592 --- [backend-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-28T01:29:32.210+05:30  WARN 71592 --- [backend-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28T01:29:32.491+05:30  INFO 71592 --- [backend-api] [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookingdb'
+2026-01-28T01:29:32.533+05:30  INFO 71592 --- [backend-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-28T01:29:32.536+05:30  INFO 71592 --- [backend-api] [restartedMain] movie.MovieBookingApplication            : Started MovieBookingApplication in 2.721 seconds (process running for 2.977)
+2026-01-28T01:35:12.623+05:30  INFO 71592 --- [backend-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28T01:35:12.625+05:30  INFO 71592 --- [backend-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-28T01:35:12.632+05:30  INFO 71592 --- [backend-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28T01:35:12.633+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists booking cascade 
+2026-01-28T01:35:12.633+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists city cascade 
+2026-01-28T01:35:12.633+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists movie cascade 
+2026-01-28T01:35:12.634+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists seat cascade 
+2026-01-28T01:35:12.634+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists show cascade 
+2026-01-28T01:35:12.634+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists theatre cascade 
+2026-01-28T01:35:12.634+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists users cascade 
+2026-01-28T01:35:12.634+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists booking_seq
+2026-01-28T01:35:12.635+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists city_seq
+2026-01-28T01:35:12.635+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists movie_seq
+2026-01-28T01:35:12.635+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists seat_seq
+2026-01-28T01:35:12.635+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists show_seq
+2026-01-28T01:35:12.635+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists theatre_seq
+2026-01-28T01:35:12.636+05:30 DEBUG 71592 --- [backend-api] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop sequence if exists users_seq
+2026-01-28T01:35:12.638+05:30  WARN 71592 --- [backend-api] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-01-28T01:35:12.638+05:30  INFO 71592 --- [backend-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-28T01:35:12.639+05:30  INFO 71592 --- [backend-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
